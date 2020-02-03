@@ -1,0 +1,12 @@
+package stuff;
+import java.util.Scanner;
+public class Application {	
+	public static void main(String[]args)
+	{
+		Scanner input = new Scanner(System.in);
+		int userNum = input.nextInt();
+		Encrypter enc = new Encrypter(userNum);
+	}
+}
+
+

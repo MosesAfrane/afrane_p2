@@ -1,0 +1,15 @@
+package stuff2;
+import java.util.Scanner;
+public class BMIcalculator {
+	public static void main(String[]args)
+	{
+		double weight = 0.0;
+		double height = 0.0;
+		Scanner input = new Scanner (System.in);
+		System.out.println("Enter your weight and then height");
+		weight = input.nextDouble();
+		height = input.nextDouble();
+		System.out.println(weight);
+		System.out.println(height);
+	}
+}

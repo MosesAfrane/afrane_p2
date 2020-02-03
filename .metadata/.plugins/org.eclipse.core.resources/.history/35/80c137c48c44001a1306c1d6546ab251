@@ -1,0 +1,6 @@
+
+public class encrypter
+{
+	private int userNumber;
+	
+}
